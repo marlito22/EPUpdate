@@ -71,22 +71,22 @@
       <dsig:DigestValue>FBCAHng3JwgCcy2idVdXRkfL/PJobdFYrweADy1Xh+s=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="EPC.dll" size="5547008">
+  <file name="EPC.dll" size="5547520">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>u9Tqf6Qqa81Wx6VpsY0oBUHMp+8vq8vGLQafyvmLwBY=</dsig:DigestValue>
+      <dsig:DigestValue>o/89knUm6InArP5ALIQo6DqE0dKKzSbupqX8s1hQnc0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="EPC.exe" size="138240">
+  <file name="EPC.exe" size="138752">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Pg4hT876ewYrh6AU2IQm0rtVfdk1RV2VmYTXQshP+yU=</dsig:DigestValue>
+      <dsig:DigestValue>kMFuiTVdR1a3qwCkpoWZMCubFf5C2sPU2/3ii+NPoeA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="EPC.runtimeconfig.json" size="651">
