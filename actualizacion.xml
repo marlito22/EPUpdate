@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <item>
-  <version>1.0.0.0</version>
-  <url>https://marlito22.github.io/EPUpdate/EP1.0.0.0.zip</url>
+  <version>1.0.0.1</version>
+  <url>https://marlito22.github.io/EPUpdate/EP1.0.0.1.zip</url>
   <changelog>https://marlito22.github.io/EPUpdate/cambios.html</changelog>
   <mandatory>false</mandatory>
 </item>
