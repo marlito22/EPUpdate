@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<item>
+  <version>1.0.4.1</version>
+  <url>https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.1/EP-v1.0.4.1-win-x64-self-contained.zip</url>
+  <installer>https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.1/EP-Setup-v1.0.4.1-win-x64.exe</installer>
+  <changelog>https://marlito22.github.io/EPUpdate/cambios.html</changelog>
+  <mandatory>false</mandatory>
+</item>
