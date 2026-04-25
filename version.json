@@ -1,15 +1,16 @@
 {
-  "version": "1.0.4.1",
+  "version": "1.0.4.2",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.1/EP-v1.0.4.1-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.1/EP-Setup-v1.0.4.1-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.1",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.2/EP-v1.0.4.2-win-x64-self-contained.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.2/EP-Setup-v1.0.4.2-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.2",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-04-24",
+  "publishedAt": "2026-04-25",
   "notes": [
-    "Modo Minimarket tactil para ventas rapidas.",
-    "Impresion directa de factura en la impresora predeterminada.",
-    "Correcciones para migraciones en MySQL 8.0.",
-    "Instalador Windows x64 self-contained."
+    "Mejoras de Minimarket tactil.",
+    "Imagenes locales para productos.",
+    "Cobro con multiples medios de pago.",
+    "Cantidades decimales para venta por peso.",
+    "Ventana Minimarket sin barra superior."
   ]
 }
