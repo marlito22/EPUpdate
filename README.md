@@ -4,10 +4,10 @@ Repositorio publico de actualizaciones para EP.
 
 ## Version actual
 
-- Version: `1.0.4.2`
-- Instalador Windows x64: <https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.2/EP-Setup-v1.0.4.2-win-x64.exe>
-- Paquete ZIP para actualizacion automatica: <https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.2/EP-v1.0.4.2-win-x64-self-contained.zip>
-- Release: <https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.2>
+- Version: `1.0.4.3`
+- Instalador Windows x64: <https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.3/EP-Setup-v1.0.4.3-win-x64.exe>
+- Paquete ZIP para actualizacion automatica: <https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.3/EP-v1.0.4.3-win-x64-self-contained.zip>
+- Release: <https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.3>
 
 ## Archivos publicados
 
