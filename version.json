@@ -1,16 +1,16 @@
 {
-  "version": "1.0.4.7",
+  "version": "1.0.4.9",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.7/EP-v1.0.4.7-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.7/EP-Setup-v1.0.4.7-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.7",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.9/EP-v1.0.4.9-win-x64-self-contained.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.9/EP-Setup-v1.0.4.9-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.9",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-05-10",
+  "publishedAt": "2026-05-19",
   "notes": [
-    "Release generado desde tag v1.0.4.7 del proyecto principal.",
+    "Release generado desde tag v1.0.4.9 del proyecto principal.",
     "Paquete ZIP self-contained para actualizacion automatica.",
     "Instalador Windows x64 self-contained.",
-    "Incluye mejoras en cotizaciones, operaciones multi-bodega y reportes.",
-    "Actualiza migraciones y flujo operativo de compras, facturacion, inventario y devoluciones."
+    "Incluye entregas parciales, remisiones y devoluciones de remision.",
+    "Actualiza saldo a favor, pagos, caja, cotizaciones y reportes operativos."
   ]
 }
