@@ -1,16 +1,17 @@
 {
-  "version": "1.0.4.9",
+  "version": "1.0.4.10",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.9/EP-v1.0.4.9-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.9/EP-Setup-v1.0.4.9-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.9",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.10/EP-v1.0.4.10-win-x64-self-contained.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.10/EP-Setup-v1.0.4.10-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.10",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-05-19",
+  "publishedAt": "2026-05-20",
   "notes": [
-    "Release generado desde tag v1.0.4.9 del proyecto principal.",
+    "Release generado desde tag v1.0.4.10 del proyecto principal.",
     "Paquete ZIP self-contained para actualizacion automatica.",
     "Instalador Windows x64 self-contained.",
-    "Incluye entregas parciales, remisiones y devoluciones de remision.",
-    "Actualiza saldo a favor, pagos, caja, cotizaciones y reportes operativos."
+    "Corrige fallos de migracion por archivos SQL residuales en instalaciones viejas.",
+    "Las migraciones versionadas ahora se cargan desde recursos embebidos en EP.dll.",
+    "Reduce choques de version duplicada en Evolve durante la actualizacion."
   ]
 }
