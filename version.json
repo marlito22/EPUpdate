@@ -1,17 +1,17 @@
 {
-  "version": "1.0.4.10",
+  "version": "1.0.4.11",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.10/EP-v1.0.4.10-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.10/EP-Setup-v1.0.4.10-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.10",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.11/EP-v1.0.4.11-win-x64-self-contained.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.4.11/EP-Setup-v1.0.4.11-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.4.11",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-05-20",
+  "publishedAt": "2026-06-20",
   "notes": [
-    "Release generado desde tag v1.0.4.10 del proyecto principal.",
+    "Release generado desde la version 1.0.4.11 del proyecto principal.",
     "Paquete ZIP self-contained para actualizacion automatica.",
     "Instalador Windows x64 self-contained.",
-    "Corrige fallos de migracion por archivos SQL residuales en instalaciones viejas.",
-    "Las migraciones versionadas ahora se cargan desde recursos embebidos en EP.dll.",
-    "Reduce choques de version duplicada en Evolve durante la actualizacion."
+    "El instalador ahora deja EP.Servicios.Host dentro de la carpeta de EPC.",
+    "EPC puede crear o reparar el servicio EP.Servicios en el primer arranque sin copiar binarios manualmente.",
+    "La actualizacion automatica sigue renovando juntos EPC y EP.Servicios.Host."
   ]
 }
