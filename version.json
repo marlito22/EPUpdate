@@ -1,16 +1,14 @@
 {
-  "version": "1.0.7.1",
+  "version": "1.0.7.2",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.1/EP-v1.0.7.1-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.1/EP-Setup-v1.0.7.1-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.1",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.2/EP-v1.0.7.2-win-x64-self-contained.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.2/EP-Setup-v1.0.7.2-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.2",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-06-30",
   "notes": [
-    "Release generado desde la version 1.0.7.1 del proyecto principal.",
-    "Paquete ZIP self-contained para actualizacion automatica.",
-    "Instalador Windows x64 self-contained.",
-    "Mejoras en logica de licenciamiento e instalacion.",
-    "Nueva version mayor con mejoras transversales."
+    "Release generado desde la version 1.0.7.2 del proyecto principal.",
+    "ZIP e instalador ahora incluyen EP.Servicios y EP.CONTABLE.",
+    "Mejoras en logica de licenciamiento e instalacion."
   ]
 }
