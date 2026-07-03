@@ -1,13 +1,13 @@
 {
-  "version": "1.0.7.6",
+  "version": "1.0.7.7",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.6/EP-v1.0.7.6-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.6/EP-Setup-v1.0.7.6-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.6",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.7/EP-v1.0.7.7-win-x64-self-contained.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.7/EP-Setup-v1.0.7.7-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.7",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-01",
   "notes": [
-    "Release generado desde la version 1.0.7.6 del proyecto principal.",
+    "Release generado desde la version 1.0.7.7 del proyecto principal.",
     "ZIP e instalador incluyen EP.Servicios y EP.CONTABLE.",
     "Mejoras en licenciamiento, facturacion y catalogo."
   ]
