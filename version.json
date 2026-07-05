@@ -1,14 +1,15 @@
 {
-  "version": "1.0.7.8",
+  "version": "1.0.7.9",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.8/EP-v1.0.7.8-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.8/EP-Setup-v1.0.7.8-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.8",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.9/EP-v1.0.7.9-win-x64-self-contained.zip",
+  "installerUrl": "",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.9",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-03",
+  "publishedAt": "2026-07-05",
   "notes": [
-    "Release generado desde la version 1.0.7.8 del proyecto principal.",
-    "ZIP e instalador incluyen EPC, EP.Servicios y EP.CONTABLE.",
-    "Mejoras en busqueda de productos, compras y facturacion."
+    "Release generado desde la version 1.0.7.9 del proyecto principal.",
+    "ZIP incluye EPC, EP.Servicios y EP.CONTABLE.",
+    "Configuracion de envio de emails SMTP por empresa.",
+    "Cartera de clientes: soporte para saldos iniciales con origen y referencia."
   ]
 }
