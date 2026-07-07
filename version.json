@@ -1,15 +1,14 @@
 {
-  "version": "1.0.7.9",
+  "version": "1.0.7.10",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.9/EP-v1.0.7.9-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.9/EP-Setup-v1.0.7.9-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.9",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.10/EP-v1.0.7.10-win-x64-self-contained.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.10/EP-Setup-v1.0.7.10-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.10",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-05",
+  "publishedAt": "2026-07-06",
   "notes": [
-    "Release generado desde la version 1.0.7.9 del proyecto principal.",
-    "ZIP incluye EPC, EP.Servicios y EP.CONTABLE.",
-    "Configuracion de envio de emails SMTP por empresa.",
-    "Cartera de clientes: soporte para saldos iniciales con origen y referencia."
+    "Release generado desde la version 1.0.7.10 del proyecto principal.",
+    "ZIP incluye EPC, EP.Servicios y EP.CONTABLE con runtime embebido (self-contained).",
+    "Correccion: todos los ejecutables ahora incluyen el runtime de .NET embebido."
   ]
 }
