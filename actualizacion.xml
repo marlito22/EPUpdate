@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <item>
-  <version>1.0.7.13</version>
-  <url>https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.13/EP-Update-v1.0.7.13-win-x64.zip</url>
-  <installer>https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.13/EP-Setup-v1.0.7.13-win-x64.exe</installer>
+  <version>1.0.7.14</version>
+  <url>https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.14/EP-Update-v1.0.7.14-win-x64.zip</url>
+  <installer>https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.14/EP-Setup-v1.0.7.14-win-x64.exe</installer>
   <changelog>https://marlito22.github.io/EPUpdate/cambios.html</changelog>
   <mandatory>false</mandatory>
 </item>
