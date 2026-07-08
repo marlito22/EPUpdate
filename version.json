@@ -1,15 +1,16 @@
 {
-  "version": "1.0.7.15",
+  "version": "1.0.7.16",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.15/EP-v1.0.7.15-win-x64-self-contained.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.15/EP-Setup-v1.0.7.15-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.15",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.16/EP-Update-v1.0.7.16-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.16/EP-Setup-v1.0.7.16-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.16",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-07",
   "notes": [
-    "Release generado desde la version 1.0.7.15 del proyecto principal.",
+    "Release generado desde la version 1.0.7.16 del proyecto principal.",
     "ZIP de actualizacion incluye EPC, EP.Servicios y EP.CONTABLE con runtime embebido.",
-    "Nuevas columnas ACTIVO y ES_SISTEMA en tabla roles para administracion de permisos.",
+    "Columna CODIGO_BARRAS ahora nullable en producto_variantes.",
+    "Mejoras DIAN, bootstrap de instalacion y resolucion de host local.",
     "El actualizador consulta primero version.json para evitar el rate limit de GitHub y valida que el ZIP contenga todos los componentes requeridos."
   ]
 }
