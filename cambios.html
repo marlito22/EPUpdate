@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EP v1.0.7.16</title>
+  <title>EP v1.0.7.17</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 32px; color: #172033; line-height: 1.5; }
     main { max-width: 760px; }
@@ -13,19 +13,19 @@
 </head>
 <body>
   <main>
-    <h1>EP v1.0.7.16</h1>
-    <p>Actualizacion publicada el 7 de julio de 2026.</p>
+    <h1>EP v1.0.7.17</h1>
+    <p>Actualizacion publicada el 8 de julio de 2026.</p>
     <ul>
-      <li>Columna <code>CODIGO_BARRAS</code> ahora nullable en <code>producto_variantes</code>.</li>
-      <li>Mejoras en facturacion electronica DIAN.</li>
-      <li>Fortalecimiento del bootstrap de instalacion y resolucion de host local.</li>
+      <li>Se corrige el cierre del updater para evitar errores de sincronizacion al terminar la actualizacion.</li>
+      <li>Se alinea la validacion del bundle con la ruta real de <code>EP.CONTABLE</code> dentro del payload de <code>EPC</code>.</li>
+      <li>Se ajusta el bootstrap de instalacion y la publicacion de metadatos del release.</li>
       <li>ZIP de actualizacion incluye EPC, EP.Servicios y EP.CONTABLE con runtime embebido.</li>
-      <li>El actualizador consulta primero version.json para evitar el rate limit de GitHub.</li>
+      <li>El actualizador sigue consultando primero <code>version.json</code> para evitar el rate limit de GitHub.</li>
     </ul>
     <p>
-      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.16/EP-Update-v1.0.7.16-win-x64.zip">Descargar ZIP</a>
+      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Update-v1.0.7.17-win-x64.zip">Descargar ZIP</a>
       |
-      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.16/EP-Setup-v1.0.7.16-win-x64.exe">Descargar instalador</a>
+      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Setup-v1.0.7.17-win-x64.exe">Descargar instalador</a>
     </p>
   </main>
 </body>

@@ -1,16 +1,16 @@
 {
-  "version": "1.0.7.16",
+  "version": "1.0.7.17",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.16/EP-Update-v1.0.7.16-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.16/EP-Setup-v1.0.7.16-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.16",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Update-v1.0.7.17-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Setup-v1.0.7.17-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.17",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-07",
+  "publishedAt": "2026-07-08",
   "notes": [
-    "Release generado desde la version 1.0.7.16 del proyecto principal.",
+    "Release generado desde la version 1.0.7.17 montada manualmente.",
     "ZIP de actualizacion incluye EPC, EP.Servicios y EP.CONTABLE con runtime embebido.",
-    "Columna CODIGO_BARRAS ahora nullable en producto_variantes.",
-    "Mejoras DIAN, bootstrap de instalacion y resolucion de host local.",
-    "El actualizador consulta primero version.json para evitar el rate limit de GitHub y valida que el ZIP contenga todos los componentes requeridos."
+    "Se corrige el flujo final del updater para evitar fallos por sincronizacion al cerrar la actualizacion.",
+    "Se alinea la validacion del bundle con la ubicacion real de EP.CONTABLE dentro del payload de EPC.",
+    "Se ajustan bootstrap y metadatos de publicacion para mantener coherencia entre version.json, release y pagina de cambios."
   ]
 }
