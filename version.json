@@ -1,16 +1,15 @@
 {
-  "version": "1.0.7.17",
+  "version": "1.0.7.18",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Update-v1.0.7.17-win-x64.zip",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.18/EP-Update-v1.0.7.18-win-x64.zip",
   "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Setup-v1.0.7.17-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.17",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.18",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-08",
   "notes": [
-    "Release generado desde la version 1.0.7.17 montada manualmente.",
+    "Corrige el manifiesto de actualizacion: el componente Tools (EP.UpdateAgent) declaraba rutas relativas incorrectas y el updater fallaba con \"Falta el archivo 'clretwrc.dll' del componente 'Tools'\".",
+    "El release se genero con una corrida real y completa de Build-UpdateBundle.ps1 (no montado a mano), con el blindaje interno en verde.",
     "ZIP de actualizacion incluye EPC, EP.Servicios y EP.CONTABLE con runtime embebido.",
-    "Se corrige el flujo final del updater para evitar fallos por sincronizacion al cerrar la actualizacion.",
-    "Se alinea la validacion del bundle con la ubicacion real de EP.CONTABLE dentro del payload de EPC.",
-    "Se ajustan bootstrap y metadatos de publicacion para mantener coherencia entre version.json, release y pagina de cambios."
+    "El instalador de referencia sigue siendo el de v1.0.7.17 (la app en si no tenia el bug, solo el empaquetado de la actualizacion)."
   ]
 }
