@@ -1,15 +1,14 @@
 {
-  "version": "1.0.7.19",
+  "version": "1.0.7.20",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.19/EP-Update-v1.0.7.19-win-x64.zip",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.20/EP-Update-v1.0.7.20-win-x64.zip",
   "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Setup-v1.0.7.17-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.19",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.20",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-08",
   "notes": [
-    "Corrige un bug estructural en la PRIMERA actualizacion automatica de cualquier cliente: 'current' nace como carpeta real (el instalador no crea junction), y el swap la borraba recursivamente asumiendo lo contrario; un archivo bloqueado un instante la destruia sin dejar nada para el rollback.",
-    "El agente ahora migra 'current' con Directory.Move (no requiere archivos desbloqueados) a releases/<version> antes de tocar nada, y reintenta con backoff ante locks transitorios.",
-    "Se valida que el agente corre elevado antes de empezar, para dar un error claro si alguna vez la elevacion realmente falla.",
+    "Extiende la ventana de reintento del swap de 'current' de ~3s a ~60s con backoff creciente: en pruebas reales, con permisos de control total y sesion elevada, el Directory.Move seguia fallando con Access is denied porque algo (indexador de Windows, antivirus escaneando el arbol recien tocado) retenia un handle mas tiempo del esperado.",
+    "Incluye tambien el fix base de v1.0.7.19: migracion segura de 'current' (carpeta real en la primera actualizacion de cualquier cliente) a releases/<version> antes de tocar nada.",
     "El instalador de referencia (v1.0.7.17) ya incluye este EP.UpdateAgent actualizado."
   ]
 }

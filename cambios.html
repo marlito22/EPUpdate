@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EP v1.0.7.19</title>
+  <title>EP v1.0.7.20</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 32px; color: #172033; line-height: 1.5; }
     main { max-width: 760px; }
@@ -13,16 +13,15 @@
 </head>
 <body>
   <main>
-    <h1>EP v1.0.7.19</h1>
+    <h1>EP v1.0.7.20</h1>
     <p>Actualizacion publicada el 8 de julio de 2026.</p>
     <ul>
-      <li>Corrige un bug estructural en la primera actualizacion automatica de cualquier cliente: <code>current</code> nace como carpeta real (el instalador no crea junction) y el swap la borraba recursivamente asumiendo lo contrario.</li>
-      <li>El agente migra <code>current</code> de forma segura (rename, no requiere archivos desbloqueados) antes de tocar nada, y reintenta con backoff ante locks transitorios.</li>
-      <li>Valida que el agente corre elevado antes de empezar.</li>
+      <li>Extiende la ventana de reintento del swap de <code>current</code> de ~3s a ~60s con backoff creciente ante locks transitorios (indexador de Windows, antivirus).</li>
+      <li>Incluye tambien el fix base de v1.0.7.19: migracion segura de <code>current</code> (carpeta real en la primera actualizacion de cualquier cliente) a <code>releases/&lt;version&gt;</code> antes de tocar nada.</li>
       <li>El instalador de referencia (v1.0.7.17) ya incluye este <code>EP.UpdateAgent</code> actualizado.</li>
     </ul>
     <p>
-      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.19/EP-Update-v1.0.7.19-win-x64.zip">Descargar ZIP</a>
+      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.20/EP-Update-v1.0.7.20-win-x64.zip">Descargar ZIP</a>
       |
       <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Setup-v1.0.7.17-win-x64.exe">Descargar instalador</a>
     </p>
