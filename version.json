@@ -1,14 +1,14 @@
 {
-  "version": "1.0.7.21",
+  "version": "1.0.7.22",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.21/EP-Update-v1.0.7.21-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.21/EP-Launcher-Setup-v1.0.7.21-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.21",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.22/EP-Update-v1.0.7.22-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.22/EP-Launcher-Setup-v1.0.0-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.22",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-09",
   "notes": [
-    "Compilacion y publicacion v1.0.7.21.",
-    "Incluye EP.CONTABLE y EP.Servicios.Host como componentes del bundle.",
-    "Instalador InnoSetup actualizado para fresh install."
+    "Compilacion y publicacion v1.0.7.22.",
+    "Correccion de entrypoints en manifiesto del bundle (EP.Servicios.Host).",
+    "Incluye EP.CONTABLE, EP.Servicios.Host y cliente web EP_Mobile."
   ]
 }
