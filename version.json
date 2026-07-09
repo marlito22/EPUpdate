@@ -1,14 +1,17 @@
 {
-  "version": "1.0.7.22",
+  "version": "1.0.7.23",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.22/EP-Update-v1.0.7.22-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.22/EP-Launcher-Setup-v1.0.0-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.22",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.23/EP-Update-v1.0.7.23-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.23/EP-Launcher-Setup-v1.0.0-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.23",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-09",
   "notes": [
-    "Compilacion y publicacion v1.0.7.22.",
-    "Correccion de entrypoints en manifiesto del bundle (EP.Servicios.Host).",
-    "Incluye EP.CONTABLE, EP.Servicios.Host y cliente web EP_Mobile."
+    "EP_Mobile: configuracion de empresa (empresa_config_provider).",
+    "EP_Mobile: precios con/sin IVA segun configuracion de la empresa.",
+    "EP_Mobile: utilidad IVA (conIva extension) y badge visual.",
+    "EP_Mobile: detalle de producto muestra 3 niveles de precio.",
+    "EP_Mobile: auth carga config empresa post-login y limpia en logout.",
+    "EP.Launcher: mejoras en flujo de instalacion y bootstrap."
   ]
 }
