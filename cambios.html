@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EP v1.0.7.18</title>
+  <title>EP v1.0.7.19</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 32px; color: #172033; line-height: 1.5; }
     main { max-width: 760px; }
@@ -13,16 +13,16 @@
 </head>
 <body>
   <main>
-    <h1>EP v1.0.7.18</h1>
+    <h1>EP v1.0.7.19</h1>
     <p>Actualizacion publicada el 8 de julio de 2026.</p>
     <ul>
-      <li>Corrige el manifiesto de actualizacion: el componente <code>Tools</code> (<code>EP.UpdateAgent</code>) declaraba rutas relativas incorrectas y el updater fallaba con "Falta el archivo 'clretwrc.dll' del componente 'Tools'".</li>
-      <li>El release se genero con una corrida real y completa de <code>Build-UpdateBundle.ps1</code>, no montado a mano.</li>
-      <li>ZIP de actualizacion incluye EPC, EP.Servicios y EP.CONTABLE con runtime embebido.</li>
-      <li>El instalador de referencia sigue siendo el de v1.0.7.17 (la app no tenia el bug, solo el empaquetado de la actualizacion).</li>
+      <li>Corrige un bug estructural en la primera actualizacion automatica de cualquier cliente: <code>current</code> nace como carpeta real (el instalador no crea junction) y el swap la borraba recursivamente asumiendo lo contrario.</li>
+      <li>El agente migra <code>current</code> de forma segura (rename, no requiere archivos desbloqueados) antes de tocar nada, y reintenta con backoff ante locks transitorios.</li>
+      <li>Valida que el agente corre elevado antes de empezar.</li>
+      <li>El instalador de referencia (v1.0.7.17) ya incluye este <code>EP.UpdateAgent</code> actualizado.</li>
     </ul>
     <p>
-      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.18/EP-Update-v1.0.7.18-win-x64.zip">Descargar ZIP</a>
+      <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.19/EP-Update-v1.0.7.19-win-x64.zip">Descargar ZIP</a>
       |
       <a href="https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Setup-v1.0.7.17-win-x64.exe">Descargar instalador</a>
     </p>

@@ -1,15 +1,15 @@
 {
-  "version": "1.0.7.18",
+  "version": "1.0.7.19",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.18/EP-Update-v1.0.7.18-win-x64.zip",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.19/EP-Update-v1.0.7.19-win-x64.zip",
   "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.17/EP-Setup-v1.0.7.17-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.18",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.19",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-08",
   "notes": [
-    "Corrige el manifiesto de actualizacion: el componente Tools (EP.UpdateAgent) declaraba rutas relativas incorrectas y el updater fallaba con \"Falta el archivo 'clretwrc.dll' del componente 'Tools'\".",
-    "El release se genero con una corrida real y completa de Build-UpdateBundle.ps1 (no montado a mano), con el blindaje interno en verde.",
-    "ZIP de actualizacion incluye EPC, EP.Servicios y EP.CONTABLE con runtime embebido.",
-    "El instalador de referencia sigue siendo el de v1.0.7.17 (la app en si no tenia el bug, solo el empaquetado de la actualizacion)."
+    "Corrige un bug estructural en la PRIMERA actualizacion automatica de cualquier cliente: 'current' nace como carpeta real (el instalador no crea junction), y el swap la borraba recursivamente asumiendo lo contrario; un archivo bloqueado un instante la destruia sin dejar nada para el rollback.",
+    "El agente ahora migra 'current' con Directory.Move (no requiere archivos desbloqueados) a releases/<version> antes de tocar nada, y reintenta con backoff ante locks transitorios.",
+    "Se valida que el agente corre elevado antes de empezar, para dar un error claro si alguna vez la elevacion realmente falla.",
+    "El instalador de referencia (v1.0.7.17) ya incluye este EP.UpdateAgent actualizado."
   ]
 }
