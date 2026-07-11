@@ -1,17 +1,22 @@
 {
-  "version": "1.0.7.23",
+  "version": "1.0.7.24",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.23/EP-Update-v1.0.7.23-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.23/EP-Launcher-Setup-v1.0.0-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.23",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.24/EP-Update-v1.0.7.24-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.24/EP-Launcher-Setup-v1.0.0-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.24",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-09",
+  "publishedAt": "2026-07-10",
   "notes": [
-    "EP_Mobile: configuracion de empresa (empresa_config_provider).",
-    "EP_Mobile: precios con/sin IVA segun configuracion de la empresa.",
-    "EP_Mobile: utilidad IVA (conIva extension) y badge visual.",
-    "EP_Mobile: detalle de producto muestra 3 niveles de precio.",
-    "EP_Mobile: auth carga config empresa post-login y limpia en logout.",
-    "EP.Launcher: mejoras en flujo de instalacion y bootstrap."
-  ]
+    "DIAN: mejoras en schemas, documento soporte, consulta, notas credito y serializacion.",
+    "Divisa: nuevo modulo completo con DTOs, controller, servicio y vista en WPF.",
+    "Configuracion: campos divisa en perfil empresa y persistencia.",
+    "Launcher: self-apply, self-install layout y bundle update para actualizaciones."
+  ],
+  "launcher": {
+    "version": "1.0.0",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.24/EP-Launcher-Update-v1.0.0-win-x64.zip",
+    "notes": [
+      "Self-apply, self-install layout y bundle update."
+    ]
+  }
 }
