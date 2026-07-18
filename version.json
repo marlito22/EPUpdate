@@ -1,20 +1,20 @@
 {
-  "version": "1.0.7.27",
+  "version": "1.0.7.28",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.27/EP-Update-v1.0.7.27-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.27/EP-Launcher-Setup-v1.0.1-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.27",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.28/EP-Update-v1.0.7.28-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.28/EP-Launcher-Setup-v1.0.1-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.28",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-15",
+  "publishedAt": "2026-07-18",
   "notes": [
-    "Actualización del sistema EP a versión 1.0.7.27.",
+    "Actualizacion del sistema EP a version 1.0.7.28.",
     "Mejoras de rendimiento y estabilidad general."
   ],
   "launcher": {
     "version": "1.0.1",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.27/EP-Launcher-Update-v1.0.1-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.28/EP-Launcher-Update-v1.0.1-win-x64.zip",
     "notes": [
-      "Actualización del Launcher a versión 1.0.1."
+      "Actualizacion del Launcher a version 1.0.1."
     ]
   }
 }
