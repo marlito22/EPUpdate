@@ -1,23 +1,22 @@
 {
-  "version": "1.0.7.30",
+  "version": "1.0.7.31",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.30/EP-Update-v1.0.7.30-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.30/EP-Launcher-Setup-v1.0.1-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.30",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.31/EP-Update-v1.0.7.31-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.31/EP-Launcher-Setup-v1.0.1-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.31",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-21",
+  "publishedAt": "2026-07-23",
   "notes": [
-    "Nuevo modulo de Disenos de formato de documentos (editor, preview, API y adapter de render PDF).",
-    "Esquemas oficiales UBL/DIAN 2.1 para validacion de documentos electronicos.",
-    "Toggle IVA incluido en Cotizaciones y Devoluciones, unificando el patron de Facturacion.",
-    "Tirillas unificadas de Cotizacion, Devolucion de venta y compra con precio unitario IVA incluido.",
-    "Ajustes de redondeo al peso en Factura y Devoluciones.",
-    "Mejoras en consultas de Caja, Cartera, Compras, Inventario, Plan Separe y Entrega Parcial.",
-    "Ajustes en app movil (auth provider, home screen, drawer principal)."
+    "Actualizacion masiva de precios por categoria con dialogo dedicado y permiso especifico.",
+    "Modulo de licencia en app movil (verificacion, bloqueo y screens de estado).",
+    "Ajustes en cartera: pagos con documentos adjuntos y mejoras en consultas.",
+    "Exportacion de reportes a Excel y PDF con layout mejorado.",
+    "Herramientas de productividad: nuevos accesos en el menu de herramientas.",
+    "Correcciones en devoluciones de venta y entrega parcial."
   ],
   "launcher": {
     "version": "1.0.1",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.30/EP-Launcher-Update-v1.0.1-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.31/EP-Launcher-Update-v1.0.1-win-x64.zip",
     "notes": [
       "Sin cambios en esta version."
     ]
