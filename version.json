@@ -1,11 +1,11 @@
 {
-  "version": "1.0.7.31",
+  "version": "1.0.7.32",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.31/EP-Update-v1.0.7.31-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.31/EP-Launcher-Setup-v1.0.1-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.31",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.32/EP-Update-v1.0.7.32-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.32/EP-Launcher-Setup-v1.0.1-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.32",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-23",
+  "publishedAt": "2026-07-24",
   "notes": [
     "Actualizacion masiva de precios por categoria con dialogo dedicado y permiso especifico.",
     "Modulo de licencia en app movil (verificacion, bloqueo y screens de estado).",
@@ -16,7 +16,7 @@
   ],
   "launcher": {
     "version": "1.0.1",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.31/EP-Launcher-Update-v1.0.1-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.32/EP-Launcher-Update-v1.0.1-win-x64.zip",
     "notes": [
       "Sin cambios en esta version."
     ]
