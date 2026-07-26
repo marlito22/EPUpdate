@@ -1,22 +1,24 @@
 {
-  "version": "1.0.7.32",
+  "version": "1.0.7.33",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.32/EP-Update-v1.0.7.32-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.32/EP-Launcher-Setup-v1.0.1-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.32",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.33/EP-Update-v1.0.7.33-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.33/EP-Launcher-Setup-v1.0.1-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.33",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-24",
+  "publishedAt": "2026-07-26",
   "notes": [
-    "Actualizacion masiva de precios por categoria con dialogo dedicado y permiso especifico.",
-    "Modulo de licencia en app movil (verificacion, bloqueo y screens de estado).",
-    "Ajustes en cartera: pagos con documentos adjuntos y mejoras en consultas.",
-    "Exportacion de reportes a Excel y PDF con layout mejorado.",
-    "Herramientas de productividad: nuevos accesos en el menu de herramientas.",
-    "Correcciones en devoluciones de venta y entrega parcial."
+    "Correccion: Se elimina el concepto de turno de caja, simplificando el flujo de apertura/cierre.",
+    "Mejora: Consultas de cartera y pagos optimizadas con joins mas eficientes.",
+    "Nueva: Scoring de clientes con servicio de busqueda mejorado.",
+    "Mejora: Actualizacion de precios por categoria con interfaz mejorada.",
+    "Correccion: Ajustes en devoluciones sobre compra y venta.",
+    "Mejora: Flujo de facturacion simplificado.",
+    "Nueva: Comportamiento de formato de moneda en tiempo real para campos numericos.",
+    "Actualizacion: Migraciones SQL para limpieza de datos obsoletos de caja."
   ],
   "launcher": {
     "version": "1.0.1",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.32/EP-Launcher-Update-v1.0.1-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.33/EP-Launcher-Update-v1.0.1-win-x64.zip",
     "notes": [
       "Sin cambios en esta version."
     ]
