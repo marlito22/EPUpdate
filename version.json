@@ -1,24 +1,17 @@
 {
-  "version": "1.0.7.33",
+  "version": "1.0.7.34",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.33/EP-Update-v1.0.7.33-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.33/EP-Launcher-Setup-v1.0.1-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.33",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.34/EP-Update-v1.0.7.34-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.34/EP-Launcher-Setup-v1.0.2-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.34",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
   "publishedAt": "2026-07-26",
   "notes": [
-    "Correccion: Se elimina el concepto de turno de caja, simplificando el flujo de apertura/cierre.",
-    "Mejora: Consultas de cartera y pagos optimizadas con joins mas eficientes.",
-    "Nueva: Scoring de clientes con servicio de busqueda mejorado.",
-    "Mejora: Actualizacion de precios por categoria con interfaz mejorada.",
-    "Correccion: Ajustes en devoluciones sobre compra y venta.",
-    "Mejora: Flujo de facturacion simplificado.",
-    "Nueva: Comportamiento de formato de moneda en tiempo real para campos numericos.",
-    "Actualizacion: Migraciones SQL para limpieza de datos obsoletos de caja."
+    "Actualización: Subida de versión del cliente EP a 1.0.7.34."
   ],
   "launcher": {
-    "version": "1.0.1",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.33/EP-Launcher-Update-v1.0.1-win-x64.zip",
+    "version": "1.0.2",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.34/EP-Launcher-Update-v1.0.2-win-x64.zip",
     "notes": [
       "Sin cambios en esta version."
     ]
