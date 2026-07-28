@@ -1,25 +1,20 @@
 {
-  "version": "1.0.7.34",
+  "version": "1.0.7.35",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.34/EP-Update-v1.0.7.34-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.34/EP-Launcher-Setup-v1.0.2-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.34",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.35/EP-Update-v1.0.7.35-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.35/EP-Launcher-Setup-v1.0.2-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.35",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-26",
+  "publishedAt": "2026-07-28",
   "notes": [
-    "Nueva: Selector de tamaño de hoja en formato de etiquetas de inventario (Carta, Oficio, A4 o personalizado), con validación de que las etiquetas quepan en la hoja seleccionada.",
-    "Nueva: Opción \"Código de barras opcional\" en configuración de productos. Al activarla, el código de barras deja de ser obligatorio al crear o editar productos.",
-    "Nueva: Toggle \"Costos con IVA\" en la pantalla de compras para visualizar los costos con o sin impuesto directamente desde la vista.",
-    "Mejora: Búsqueda por palabras en la app móvil. Ahora se puede buscar escribiendo varias palabras (ej: \"mani 30c\") y el sistema las busca en cualquier orden dentro de los campos del producto.",
-    "Corrección: Validación al crear etiquetas que verifica que el tamaño de hoja sea suficiente para acomodar las columnas, filas, márgenes y espacios configurados, evitando impresión con recorte.",
-    "Actualización: Los formatos de etiquetas de inventario ahora guardan y respetan el tamaño de hoja configurado al generar el PDF, en lugar de estar siempre fijos a tamaño Carta.",
-    "Actualización: Simplificación de la configuración de productos. Se eliminaron los campos de consecutivo, prefijo y longitud del código interno. Ahora solo se configura si el código de barras es opcional.",
-    "Migración (V1_0_7_33_002): Agrega columnas de ancho y alto de hoja (en milímetros) a la tabla de formatos de etiquetas. Valor por defecto: 215.9 x 279.4 mm (Carta).",
-    "Migración (V1_0_7_34_001): Elimina las columnas de consecutivo, prefijo y longitud del código interno de la tabla de configuración de productos. La columna existente se conserva y ahora controla si el código de barras es opcional."
+    "Nueva: Precios por subsección en catálogo de productos.",
+    "Corrección: Formato de moneda en tiempo real y comportamiento de entrada decimal.",
+    "Corrección: Fechas de actualización en facturas y movimientos de caja.",
+    "Migración: Crea tabla de precios por subsección y corrige fechas on_update."
   ],
   "launcher": {
     "version": "1.0.2",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.34/EP-Launcher-Update-v1.0.2-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.35/EP-Launcher-Update-v1.0.2-win-x64.zip",
     "notes": [
       "Sin cambios en esta version."
     ]
