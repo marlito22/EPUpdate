@@ -1,22 +1,30 @@
 {
-  "version": "1.0.7.35",
+  "version": "1.0.7.37",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.35/EP-Update-v1.0.7.35-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.35/EP-Launcher-Setup-v1.0.2-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.35",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.37/EP-Update-v1.0.7.37-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.37/EP-Launcher-Setup-v1.0.2-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.37",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-28",
+  "publishedAt": "2026-07-30",
   "notes": [
-    "Nueva: Precios por subsección en catálogo de productos.",
-    "Corrección: Formato de moneda en tiempo real y comportamiento de entrada decimal.",
-    "Corrección: Fechas de actualización en facturas y movimientos de caja.",
-    "Migración: Crea tabla de precios por subsección y corrige fechas on_update."
+    "Inventario por peso con consolidado y panorama diario en reportes.",
+    "Panel lateral de filtros dinámicos (categoría, subcategoría, vendedor, precio).",
+    "Formas de pago permitidas por cliente.",
+    "Límite de búsqueda y columnas de recursos de producto en configuración.",
+    "Interfaz y servicio de actualización del Launcher.",
+    "Login se adapta a la resolución de pantalla.",
+    "Icono actualizado con fondo blanco en todas las plataformas.",
+    "Buscador unificado en entrega parcial y plan separe.",
+    "Filtro de medios de pago por informe.",
+    "Migración (V1_0_7_36_001): Límite de búsqueda en perfil de empresa.",
+    "Migración (V1_0_7_36_002): Columnas de recursos de producto.",
+    "Migración (V1_0_7_36_003): Formas de pago permitidas por cliente."
   ],
   "launcher": {
     "version": "1.0.2",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.35/EP-Launcher-Update-v1.0.2-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.37/EP-Launcher-Update-v1.0.2-win-x64.zip",
     "notes": [
-      "Sin cambios en esta version."
+      "Interfaz y servicio de actualización mejorados."
     ]
   }
 }
