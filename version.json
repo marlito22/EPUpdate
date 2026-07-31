@@ -1,30 +1,26 @@
 {
-  "version": "1.0.7.37",
+  "version": "1.0.7.38",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.37/EP-Update-v1.0.7.37-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.37/EP-Launcher-Setup-v1.0.2-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.37",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.38/EP-Update-v1.0.7.38-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.38/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.38",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-30",
+  "publishedAt": "2026-07-31",
   "notes": [
-    "Inventario por peso con consolidado y panorama diario en reportes.",
-    "Panel lateral de filtros dinámicos (categoría, subcategoría, vendedor, precio).",
-    "Formas de pago permitidas por cliente.",
-    "Límite de búsqueda y columnas de recursos de producto en configuración.",
-    "Interfaz y servicio de actualización del Launcher.",
-    "Login se adapta a la resolución de pantalla.",
-    "Icono actualizado con fondo blanco en todas las plataformas.",
-    "Buscador unificado en entrega parcial y plan separe.",
-    "Filtro de medios de pago por informe.",
-    "Migración (V1_0_7_36_001): Límite de búsqueda en perfil de empresa.",
-    "Migración (V1_0_7_36_002): Columnas de recursos de producto.",
-    "Migración (V1_0_7_36_003): Formas de pago permitidas por cliente."
+    "Formas de pago y condiciones de retencion configurables por cliente.",
+    "Refresco automatico de token de sesion sin reiniciar la aplicacion.",
+    "Pre-impresion de cotizaciones desde el modulo de cotizaciones.",
+    "Cuadre de caja y reportes operativos con mejores filtros y exportaciones.",
+    "Importacion por lotes de clientes y proveedores con validacion mejorada.",
+    "Modulo de inventario con ajustes en movimientos y etiquetas.",
+    "Migracion (V1_0_7_38_001): Tabla de medios de pago permitidos por cliente.",
+    "Migracion (V1_0_7_38_002): Tabla de tokens de refresco de usuario."
   ],
   "launcher": {
-    "version": "1.0.2",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.37/EP-Launcher-Update-v1.0.2-win-x64.zip",
+    "version": "1.0.3",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.38/EP-Launcher-Update-v1.0.3-win-x64.zip",
     "notes": [
-      "Interfaz y servicio de actualización mejorados."
+      "Launcher actualizado a version 1.0.3."
     ]
   }
 }
