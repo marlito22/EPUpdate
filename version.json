@@ -1,24 +1,23 @@
 {
-  "version": "1.0.7.38",
+  "version": "1.0.7.39",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.38/EP-Update-v1.0.7.38-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.38/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.38",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.39/EP-Update-v1.0.7.39-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.39/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.39",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-07-31",
+  "publishedAt": "2026-08-04",
   "notes": [
-    "Formas de pago y condiciones de retencion configurables por cliente.",
-    "Refresco automatico de token de sesion sin reiniciar la aplicacion.",
-    "Pre-impresion de cotizaciones desde el modulo de cotizaciones.",
-    "Cuadre de caja y reportes operativos con mejores filtros y exportaciones.",
-    "Importacion por lotes de clientes y proveedores con validacion mejorada.",
-    "Modulo de inventario con ajustes en movimientos y etiquetas.",
-    "Migracion (V1_0_7_38_001): Tabla de medios de pago permitidos por cliente.",
-    "Migracion (V1_0_7_38_002): Tabla de tokens de refresco de usuario."
+    "Filtro por producto en reportes y variantes adjuntas en email de factura.",
+    "Valor pagado por cliente visible en pagos de cartera.",
+    "Busqueda de texto unificada en modulos de consulta.",
+    "Flujo con Enter en cantidad y valor unitario de cotizaciones.",
+    "Redondeo de total pagado con retenciones en facturacion.",
+    "Correccion de reversal de arqueo y periodos historicos.",
+    "Migracion (V1_0_7_39_001, V1_0_7_39_002, V1_0_7_39_216): Cartera valor pagado, historico y arqueo utf8mb4."
   ],
   "launcher": {
     "version": "1.0.3",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.38/EP-Launcher-Update-v1.0.3-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.39/EP-Launcher-Update-v1.0.3-win-x64.zip",
     "notes": [
       "Launcher actualizado a version 1.0.3."
     ]
