@@ -1,23 +1,31 @@
 {
-  "version": "1.0.7.39",
+  "version": "1.0.7.40",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.39/EP-Update-v1.0.7.39-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.39/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.39",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.40/EP-Update-v1.0.7.40-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.40/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.40",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-08-04",
+  "publishedAt": "2026-08-05",
   "notes": [
-    "Filtro por producto en reportes y variantes adjuntas en email de factura.",
-    "Valor pagado por cliente visible en pagos de cartera.",
-    "Busqueda de texto unificada en modulos de consulta.",
-    "Flujo con Enter en cantidad y valor unitario de cotizaciones.",
-    "Redondeo de total pagado con retenciones en facturacion.",
-    "Correccion de reversal de arqueo y periodos historicos.",
-    "Migracion (V1_0_7_39_001, V1_0_7_39_002, V1_0_7_39_216): Cartera valor pagado, historico y arqueo utf8mb4."
+    "Nueva: Modulo de Pedidos de Compra completo con busqueda, creacion, edicion y gestion de pedidos a proveedores.",
+    "Nueva: Pantalla de pedidos guardados con filtros por fecha, proveedor y estado.",
+    "Nueva: Catalogo de Genero para productos, util para ropa y catalogo general.",
+    "Nueva: Campo de genero en formulario de productos y busqueda.",
+    "Nueva: Informes de ventas por categoria y genero con graficas y exportacion.",
+    "Nueva: Informes de compras por categoria y genero.",
+    "Nueva: Cambio de forma de pago en facturas con dialogo dedicado.",
+    "Mejora: Resumen comercial de caja por usuario simplificado y mas claro.",
+    "Mejora: Integracion del modulo de pedidos en el menu de Compras.",
+    "Mejora: Busqueda de productos ahora incluye filtro por genero.",
+    "Mejora: Formulario de ropa ahora muestra y permite seleccionar genero.",
+    "Correccion: Calculo de costo con IVA en pedidos de compra.",
+    "Migracion (V1_0_7_40_001): Crea tablas de pedidos de compra y detalle.",
+    "Migracion (V1_0_7_40_002): Agrega campo de costo con IVA a pedidos de compra.",
+    "Migracion (V1_0_7_40_003): Crea catalogo de generos para productos."
   ],
   "launcher": {
     "version": "1.0.3",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.39/EP-Launcher-Update-v1.0.3-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.40/EP-Launcher-Update-v1.0.3-win-x64.zip",
     "notes": [
       "Launcher actualizado a version 1.0.3."
     ]
