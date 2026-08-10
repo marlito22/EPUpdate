@@ -1,29 +1,23 @@
 {
-  "version": "1.0.7.41",
+  "version": "1.0.7.42",
   "mandatory": false,
-  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.41/EP-Update-v1.0.7.41-win-x64.zip",
-  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.41/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.41",
+  "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.42/EP-Update-v1.0.7.42-win-x64.zip",
+  "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.42/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+  "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.42",
   "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-  "publishedAt": "2026-08-07",
+  "publishedAt": "2026-08-10",
   "notes": [
-    "Nueva: Preferencias de usuario en el Launchpad con reordenamiento por arrastrar y soltar.",
-    "Nueva: Apertura de cajón con clave opcional al presionar F3 en facturación.",
-    "Nueva: Configuración para solicitar clave junto a la impresora del cajón monedero.",
-    "Nueva: Persistencia del modo de clave por empresa.",
-    "Mejora: Conciliación de caja ahora muestra totales por medio de pago (monetarios y no monetarios).",
-    "Mejora: Reportes de caja unifican el resumen comercial con el cuadre de caja.",
-    "Mejora: Reportes incluyen descuentos y permiten filtrar pagos por usuario.",
-    "Mejora: Permisos de seguridad se aplican sin necesidad de volver a iniciar sesión.",
-    "Mejora: Filtros y acciones visuales de la barra de caja ajustados para mayor claridad.",
-    "Mejora: Selector de usuarios consolidado y arqueos protegidos.",
-    "Corrección: Espaciado uniforme en los filtros de movimientos de caja.",
-    "Migración (V1_0_7_41_001): Tabla de preferencias de usuario para el Launchpad.",
-    "Migración (V1_0_7_41_002): Campo para indicar si el cajón monedero requiere clave."
+    "Nueva: Conceptos configurables de movimientos en caja (crear, editar y eliminar conceptos personalizados).",
+    "Nueva: Opción \"No vender bajo precio de costo\" en configuración de facturación.",
+    "Mejora: Modales de consulta de factura y conceptos de caja más amplios y centrados.",
+    "Mejora: Reportes permiten limpiar y cambiar producto sin recargar.",
+    "Corrección: Límites de períodos operativos en caja.",
+    "Migración (V1_0_7_42_200): Tabla de conceptos de caja configurables.",
+    "Migración (V1_0_7_42_201): Campo de validación de precio de costo."
   ],
   "launcher": {
     "version": "1.0.3",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.41/EP-Launcher-Update-v1.0.3-win-x64.zip",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.42/EP-Launcher-Update-v1.0.3-win-x64.zip",
     "notes": [
       "Launcher actualizado a version 1.0.3."
     ]
