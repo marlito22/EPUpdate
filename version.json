@@ -1,24 +1,22 @@
 {
     "mandatory": false,
-    "version": "1.0.7.44",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.44/EP-Update-v1.0.7.44-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.44/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.44",
+    "version": "1.0.7.45",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.45/EP-Update-v1.0.7.45-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.45/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.45",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-08-15",
+    "publishedAt": "2026-08-28",
     "notes": [
-        "Gestión completa de nómina colombiana (empleados, contratos, salarios, afiliaciones)",
-        "Conceptos de nómina con reglas por tipo (devengados, deducciones, aportes)",
-        "Parámetros legales históricos (salario mínimo, paga extra, auxilio transporte)",
-        "Períodos de nómina mensuales/quincenales con calendarios laborales",
-        "Configuración de nómina (periodicidad, días de pago, momentos de deducción)",
-        "Migración (V1_0_7_44_001): Tablas maestras de empleados, contratos, historial salarial y afiliaciones",
-        "Migración (V1_0_7_44_002): Tablas de conceptos de nómina y parámetros legales",
-        "Migración (V1_0_7_44_003): Tablas de períodos, calendarios y consolidados mensuales",
-        "Migración (V1_0_7_44_004): Tabla de configuración y permisos del módulo"
+        "Nueva: Módulo de Nómina completo (empleados, contratos, liquidación, prestaciones sociales y parámetros legales).",
+        "Nueva: Impresión térmica desde la app móvil mediante el puente Android (recibos, cotizaciones y apertura de cajón).",
+        "Mejora: Panorama financiero con series mensuales, saldos históricos y tendencias a color.",
+        "Mejora: Separación de arqueo y cierre de caja, y caja ya no distingue por bodega.",
+        "Corrección: Autenticación e inicio de sesión multiempresa.",
+        "Corrección: Conversión de cotizaciones a factura con variantes predeterminadas.",
+        "Migración: Actualizaciones de esquema para Nómina, multiempresa, retenciones 2026 y reversión de bodega en Caja."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.44/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.45/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
