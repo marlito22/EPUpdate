@@ -1,16 +1,21 @@
 {
     "mandatory": false,
-    "version": "1.0.7.46",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.46/EP-Update-v1.0.7.46-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.46/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.46",
+    "version": "1.0.7.47",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.47/EP-Update-v1.0.7.47-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.47/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.47",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-08-28",
+    "publishedAt": "2026-08-30",
     "notes": [
-        "Migración (V1_0_7_46_001): Agrega el permiso para consultar registros generados por otros usuarios."
+        "Nueva: Nómina electrónica DIAN (documento 102) para envío y consulta de comprobantes de nómina individual.",
+        "Nueva: Excepción de medios de pago en la facturación electrónica DIAN, para excluir medios específicos del límite de envíos.",
+        "Mejora: Edición de empleados y matriz de liquidación de nómina con más campos disponibles.",
+        "Actualización: Se retiraron del módulo de Reportes los informes en desuso de Cuadre de Caja, Pagos e Inventario de Referencias.",
+        "Migración (V1_0_7_47_001): Agrega tablas para documentos electrónicos de nómina.",
+        "Migración (V1_0_7_47_002): Agrega tabla de excepciones de medios de pago para facturación electrónica."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.46/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.47/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
