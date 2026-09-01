@@ -1,22 +1,21 @@
 {
     "mandatory": false,
-    "version": "1.0.7.48",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.48/EP-Update-v1.0.7.48-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.48/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.48",
+    "version": "1.0.7.49",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.49/EP-Update-v1.0.7.49-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.49/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.49",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-08-31",
+    "publishedAt": "2026-09-01",
     "notes": [
-        "Nueva: Informe de Estado de Resultados con análisis fiscal, exportable a Excel y PDF.",
-        "Nueva: Interpretación automática del panorama financiero.",
-        "Mejora: Progreso centralizado y por empresa de las importaciones en segundo plano.",
-        "Corrección: Selector y cantidad de movimientos de inventario.",
-        "Corrección: Cierre de cargas y reimportación de productos en importaciones.",
-        "Corrección: Migración de permisos de nómina evita errores en instalaciones con datos previos.",
-        "Actualización: El diálogo de rangos de numeración ahora usa el panel modal interno."
+        "Nueva: Modulo de Cartera Empleados para gestionar saldos y pagos de empleados.",
+        "Nueva: Buscador rapido de empleados con autocompletado en el modulo de Nomina.",
+        "Mejora: Pagos de cartera ahora soportan creacion de saldos manuales para empleados.",
+        "Mejora: Selector de empleados unificado con servicio centralizado.",
+        "Correccion: Pruebas unitarias de Nomina actualizadas para reflejar los cambios en los servicios.",
+        "Migracion (V1_0_7_49_001): Agrega tablas de cartera empleados y sus relaciones."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.48/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.49/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
