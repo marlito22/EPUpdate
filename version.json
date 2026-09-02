@@ -1,21 +1,22 @@
 {
     "mandatory": false,
-    "version": "1.0.7.49",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.49/EP-Update-v1.0.7.49-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.49/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.49",
+    "version": "1.0.7.50",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.50/EP-Update-v1.0.7.50-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.50/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.7.50",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-01",
+    "publishedAt": "2026-09-02",
     "notes": [
-        "Nueva: Modulo de Cartera Empleados para gestionar saldos y pagos de empleados.",
-        "Nueva: Buscador rapido de empleados con autocompletado en el modulo de Nomina.",
-        "Mejora: Pagos de cartera ahora soportan creacion de saldos manuales para empleados.",
-        "Mejora: Selector de empleados unificado con servicio centralizado.",
-        "Correccion: Pruebas unitarias de Nomina actualizadas para reflejar los cambios en los servicios.",
-        "Migracion (V1_0_7_49_001): Agrega tablas de cartera empleados y sus relaciones."
+        "Nueva: Nómina electrónica DIAN ahora incluye cesantías, intereses y prima al emitir el documento mensual, y permite enviar el desprendible de pago por correo al empleado.",
+        "Nueva: Gestión de conexiones a distintos servidores EP desde Configuración, para cambiar entre instalaciones sin reinstalar.",
+        "Nueva: Campo de nombre comercial en el perfil de la empresa.",
+        "Mejora: Sincronización de clientes, productos y proveedores entre empresas vinculadas (Multiempresa) con mejoras de interfaz.",
+        "Mejora: Límite de valor configurable para el envío automático de facturación electrónica, con redirección a rango no electrónico al superarlo.",
+        "Corrección: Recuperación del IVA histórico en devoluciones de compras y asignación correcta de datos fiscales predeterminados a clientes por NIT.",
+        "Migración (V1_0_7_50_001, V1_0_7_50_002): Agrega el valor límite de facturación electrónica y el correo del empleado para nómina electrónica."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.49/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.7.50/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
