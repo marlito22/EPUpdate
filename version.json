@@ -1,21 +1,22 @@
 {
     "mandatory": false,
-    "version": "1.0.9.2",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.2/EP-Update-v1.0.9.2-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.2/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.2",
+    "version": "1.0.9.3",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.3/EP-Update-v1.0.9.3-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.3/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.3",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-06",
+    "publishedAt": "2026-09-09",
     "notes": [
-        "Nueva: Los clientes ahora pueden tener una lista de precio predeterminada (Precio 1, 2 o 3); Facturación la aplica automáticamente al agregar productos.",
-        "Mejora: Rediseño visual del indicador de carga global de la aplicación.",
-        "Mejora: Sincronización de productos entre empresas ahora publica todo el catálogo activo en cada corrida.",
-        "Corrección: El cuadre de Caja ahora carga correctamente el destino de tesorería de los pagos de factura.",
-        "Corrección: Se corrigió un problema de visibilidad del indicador de carga.",
-        "Migración (V1_0_9_2_001): Agrega la columna de lista de precio predeterminada a la tabla de clientes."
+        "Nueva: atajos de teclado configurables (F1-F12) en Facturación y Compras para acciones frecuentes (pagar, cliente/proveedor, cantidad, descuento, cancelar, etc.).",
+        "Nueva: tecla de función (F1-F9) para seleccionar el medio de pago al cobrar en Facturación.",
+        "Nueva: modal de confirmación \"Total a Pagar\" en Compras, activable/desactivable desde Configuración.",
+        "Nueva: permiso de acceso al módulo Restaurante configurable por rol.",
+        "Nueva: en Productos, con Multiempresa activa, se puede elegir a qué empresas vinculadas sincronizar cada producto al crear o editar.",
+        "Corrección: el reporte de Rentabilidad ahora incluye el IVA del costo al calcular la utilidad real.",
+        "Corrección: crear más de un medio de pago de Facturación con tecla de función asignada ya no falla."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.2/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.3/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
