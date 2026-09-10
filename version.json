@@ -1,22 +1,20 @@
 {
     "mandatory": false,
-    "version": "1.0.9.4",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.4/EP-Update-v1.0.9.4-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.4/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.4",
+    "version": "1.0.9.5",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.5/EP-Update-v1.0.9.5-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.5/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.5",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
     "publishedAt": "2026-09-10",
     "notes": [
-        "Nueva: Interfaz disponible en inglés y español, con selector de idioma.",
-        "Nueva: Medio de pago \"nunca electrónico\" y devolución de venta predeterminada configurables.",
-        "Nueva: Importación de inventario y cartera con carga asíncrona, sin bloquear la pantalla.",
-        "Nueva: Informes de retenciones de ventas y compras.",
-        "Mejora: Totales en informes numéricos y de cartera; selección de descuentos y tecla F6 en facturación.",
-        "Corrección: Bloqueos del overlay de carga en modales y diálogos; periodicidad nula en reportes.",
-        "Migración: Simplifica los vínculos de Multiempresa y elimina columnas sin uso."
+        "Nueva: Opción por cliente para redirigir automáticamente a un cliente predeterminado al facturar, antes de guardar y de enviar a la DIAN.",
+        "Nueva: Las etiquetas de inventario ahora muestran la existencia total sumando todas las bodegas.",
+        "Mejora: En Facturación, la impresión ahora ocurre antes del envío electrónico.",
+        "Corrección: Se retira el bloque de operaciones no monetarias de los reportes de cierre de caja.",
+        "Migración: Agrega el flag por cliente para redirigir al cliente predeterminado de facturación."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.4/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.5/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
