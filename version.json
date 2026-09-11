@@ -1,20 +1,16 @@
 {
     "mandatory": false,
-    "version": "1.0.9.6",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.6/EP-Update-v1.0.9.6-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.6/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.6",
+    "version": "1.0.9.7",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.7/EP-Update-v1.0.9.7-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.7/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.7",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
     "publishedAt": "2026-09-11",
     "notes": [
-        "Nueva: Los productos ahora pueden asociarse a un proveedor, consultable y creable desde el catálogo igual que en Compra.",
-        "Nueva: En Clientes, opción de configuración para habilitar o deshabilitar el recurso de redirigir a cliente predeterminado al facturar.",
-        "Nueva: Informes de discriminación de IVA y margen por factura, incluyendo notas de crédito.",
-        "Mejora: Las facturas ahora conservan la tarifa de IVA vigente al momento de la venta, aunque cambie después en el catálogo.",
-        "Migración: Agrega proveedor asociado a productos, recurso de configuración de redirección de cliente, y conserva la tarifa de IVA histórica en el detalle de factura."
+        "Corrección: Los pagos con medio de pago \"crédito\" ahora se registran correctamente en el libro de tesorería."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.6/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.7/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
