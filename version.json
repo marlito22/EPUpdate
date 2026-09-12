@@ -1,16 +1,20 @@
 {
     "mandatory": false,
-    "version": "1.0.9.7",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.7/EP-Update-v1.0.9.7-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.7/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.7",
+    "version": "1.0.9.8",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.8/EP-Update-v1.0.9.8-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.8/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.8",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-11",
+    "publishedAt": "2026-09-12",
     "notes": [
-        "Corrección: Los pagos con medio de pago \"crédito\" ahora se registran correctamente en el libro de tesorería."
+        "Nueva: Las facturas redirigidas a rango no electrónico ahora conservan siempre el mismo QR/CUFE al reimprimirse.",
+        "Nueva: Clave de supervisor requerida para entrar al modo edición del Launchpad.",
+        "Mejora: Ajustes de presentación en las grillas de Facturación, Compras y Cotizaciones.",
+        "Mejora: En Multiempresa, la sincronización de productos ahora asegura el inventario base al recibir un producto sin variantes.",
+        "Migración: Agrega la tabla de CUFE de contingencia local para facturas no electrónicas."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.7/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.8/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
