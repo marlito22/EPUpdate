@@ -1,18 +1,18 @@
 {
     "mandatory": false,
-    "version": "1.0.9.9",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.9/EP-Update-v1.0.9.9-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.9/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.9",
+    "version": "1.0.9.10",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.10/EP-Update-v1.0.9.10-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.10/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.10",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-13",
+    "publishedAt": "2026-09-15",
     "notes": [
-        "Mejora: Las devoluciones de compra y de venta muestran más detalle y son más fáciles de registrar.",
-        "Mejora: Las notificaciones descartadas en el centro de notificaciones ya no vuelven a aparecer en sesiones futuras.",
-        "Mejora: El cuadre de caja y el arqueo ahora respetan la configuración vigente de cada medio de pago, no la que tenía al momento de la venta o compra."
+        "Corrección: El foco al saltar de cantidad a valor unitario en compras y cotizaciones ahora cae correctamente sobre la celda editable.",
+        "Actualización: Se retira el módulo de variantes de producto y la línea de negocio de Ropa (ya no aplica selección de variante en facturación, compras, inventario ni configuración de productos).",
+        "Migración (V1_0_9_10_001 a 003): Elimina las claves foráneas, columnas y la tabla de variantes de producto de la base de datos, junto con el tipo de negocio Ropa del catálogo."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.9/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.10/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
