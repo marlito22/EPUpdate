@@ -1,18 +1,22 @@
 {
     "mandatory": false,
-    "version": "1.0.9.10",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.10/EP-Update-v1.0.9.10-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.10/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.10",
+    "version": "1.0.9.11",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.11/EP-Update-v1.0.9.11-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.11/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.11",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-15",
+    "publishedAt": "2026-09-20",
     "notes": [
-        "Corrección: El foco al saltar de cantidad a valor unitario en compras y cotizaciones ahora cae correctamente sobre la celda editable.",
-        "Actualización: Se retira el módulo de variantes de producto y la línea de negocio de Ropa (ya no aplica selección de variante en facturación, compras, inventario ni configuración de productos).",
-        "Migración (V1_0_9_10_001 a 003): Elimina las claves foráneas, columnas y la tabla de variantes de producto de la base de datos, junto con el tipo de negocio Ropa del catálogo."
+        "Nueva: Reporte de margen de contribución con existencias.",
+        "Nueva: Más temas visuales (incluidos violetas); el tema se guarda por empresa.",
+        "Mejora: Minimarket con búsqueda de productos unificada y flujo de venta y cobro más sólido.",
+        "Mejora: Las ventanas flotantes respetan el área de trabajo al maximizar y se pueden minimizar de nuevo.",
+        "Corrección: Las cantidades con separador de miles se ingresan bien y el saldo pendiente se recalcula al imprimir pagos.",
+        "Corrección: La nómina omite empleados dados de baja y las notificaciones de la DIAN se muestran por documento.",
+        "Migración (V1_0_9_11_001 y _200): Los módulos contratados pasan a un widget de solo lectura y el perfil de empresa guarda su tema visual."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.10/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.11/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
