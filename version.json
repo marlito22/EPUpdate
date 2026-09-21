@@ -1,22 +1,16 @@
 {
     "mandatory": false,
-    "version": "1.0.9.11",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.11/EP-Update-v1.0.9.11-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.11/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.11",
+    "version": "1.0.9.12",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.12/EP-Update-v1.0.9.12-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.12/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.12",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-20",
+    "publishedAt": "2026-09-21",
     "notes": [
-        "Nueva: Reporte de margen de contribución con existencias.",
-        "Nueva: Más temas visuales (incluidos violetas); el tema se guarda por empresa.",
-        "Mejora: Minimarket con búsqueda de productos unificada y flujo de venta y cobro más sólido.",
-        "Mejora: Las ventanas flotantes respetan el área de trabajo al maximizar y se pueden minimizar de nuevo.",
-        "Corrección: Las cantidades con separador de miles se ingresan bien y el saldo pendiente se recalcula al imprimir pagos.",
-        "Corrección: La nómina omite empleados dados de baja y las notificaciones de la DIAN se muestran por documento.",
-        "Migración (V1_0_9_11_001 y _200): Los módulos contratados pasan a un widget de solo lectura y el perfil de empresa guarda su tema visual."
+        "Corrección: Si el servidor de licencias no responde, el sistema vuelve a funcionar hasta 7 días sin conexión en lugar de cerrarse."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.11/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.12/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
