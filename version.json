@@ -1,16 +1,26 @@
 {
     "mandatory": false,
-    "version": "1.0.9.12",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.12/EP-Update-v1.0.9.12-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.12/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.12",
+    "version": "1.0.9.13",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.13/EP-Update-v1.0.9.13-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.13/EP-Launcher-Setup-v1.0.3-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.13",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-21",
+    "publishedAt": "2026-09-24",
     "notes": [
-        "Corrección: Si el servidor de licencias no responde, el sistema vuelve a funcionar hasta 7 días sin conexión en lugar de cerrarse."
+        "Nueva: Conteo general de inventario para auditorías completas de existencias.",
+        "Nueva: Conteo parcial de inventario con borrador, liquidación automática e informes.",
+        "Nueva: Teclado numérico en minimarket para agilizar el ingreso de cantidades.",
+        "Nueva: Temas visuales de joyería y perfumería.",
+        "Mejora: Modales de proveedores y retenciones con mejor tamaño y como panel interno.",
+        "Mejora: Calendario y paleta de colores ahora respetan el tema visual activo (claro/oscuro).",
+        "Corrección: Formato de cantidades uniforme en inventario y compras.",
+        "Corrección: Sincronización multiempresa de productos filtra correctamente por empresa y sede destino.",
+        "Corrección: La sincronización multiempresa ahora incluye los datos del proveedor del producto.",
+        "Corrección: La instalación usa la API local para migrar la base de datos, con más registro de diagnóstico.",
+        "Migración (V1_0_9_13_200): Agrega tablas para el conteo general de inventario."
     ],
     "launcher": {
         "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.12/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.13/EP-Launcher-Update-v1.0.3-win-x64.zip"
     }
 }
