@@ -1,26 +1,29 @@
 {
     "mandatory": false,
-    "version": "1.0.9.13",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.13/EP-Update-v1.0.9.13-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.13/EP-Launcher-Setup-v1.0.3-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.13",
+    "version": "1.0.9.14",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.14/EP-Update-v1.0.9.14-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.14/EP-Launcher-Setup-v1.0.4-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.9.14",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-09-24",
+    "publishedAt": "2026-09-30",
     "notes": [
-        "Nueva: Conteo general de inventario para auditorías completas de existencias.",
-        "Nueva: Conteo parcial de inventario con borrador, liquidación automática e informes.",
-        "Nueva: Teclado numérico en minimarket para agilizar el ingreso de cantidades.",
-        "Nueva: Temas visuales de joyería y perfumería.",
-        "Mejora: Modales de proveedores y retenciones con mejor tamaño y como panel interno.",
-        "Mejora: Calendario y paleta de colores ahora respetan el tema visual activo (claro/oscuro).",
-        "Corrección: Formato de cantidades uniforme en inventario y compras.",
-        "Corrección: Sincronización multiempresa de productos filtra correctamente por empresa y sede destino.",
-        "Corrección: La sincronización multiempresa ahora incluye los datos del proveedor del producto.",
-        "Corrección: La instalación usa la API local para migrar la base de datos, con más registro de diagnóstico.",
-        "Migración (V1_0_9_13_200): Agrega tablas para el conteo general de inventario."
+        "Nueva: Sección \"Copias de seguridad\" en Configuración para crear copias manuales de la base de datos, validadas antes de guardarse.",
+        "Nueva: Programación automática de copias de seguridad por empresa: días, hora, carpeta de destino, segunda ubicación opcional y cantidad de copias a conservar.",
+        "Nueva: Las copias programadas que no se pudieron hacer (equipo apagado o servicio detenido) se recuperan automáticamente en la siguiente oportunidad.",
+        "Nueva: En los reportes de inventario, rentabilidad, peso, cartera, saldos a favor y estado de cuenta ahora se puede elegir el orden (nombre, id, identificación, costo o precio).",
+        "Nueva: Opción \"Conservar datos al crear\" en Productos: después de guardar, la pantalla queda lista para crear otro producto con los mismos datos, sin código de barras ni imagen.",
+        "Nueva: Pantalla de configuración de facturación electrónica en la app móvil.",
+        "Mejora: Los filtros de cliente, vendedor, producto, marca, género, unidad y bodega ahora se aplican en los reportes que antes los ignoraban.",
+        "Mejora: Las secciones de Correo, Roles y permisos, y Bodegas de inventario ahora se guardan con el botón general \"Guardar cambios\" de Configuración.",
+        "Mejora: En el buscador rápido de proveedores, Enter pasa al siguiente campo cuando no hay sugerencias abiertas.",
+        "Mejora: Si el servicio local no responde, la licencia se valida directamente con el servidor de licencias.",
+        "Mejora: El Launcher limpia automáticamente descargas, archivos temporales y versiones antiguas de actualizaciones para liberar espacio en disco.",
+        "Mejora: En la app móvil, las pantallas de inicio de sesión y de inicio permiten deslizar hacia abajo para recargar la información.",
+        "Corrección: El filtro de bodega en los reportes de facturas de venta, facturas anuladas y discriminación de IVA solo se aplica cuando se elige una bodega; ya no oculta facturas asumiendo la bodega predeterminada.",
+        "Migración (V1_0_9_14_001): Crea la tabla de programación de copias de seguridad por empresa."
     ],
     "launcher": {
-        "version": "1.0.3",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.13/EP-Launcher-Update-v1.0.3-win-x64.zip"
+        "version": "1.0.4",
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.9.14/EP-Launcher-Update-v1.0.4-win-x64.zip"
     }
 }
