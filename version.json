@@ -1,30 +1,24 @@
 {
     "mandatory": false,
-    "version": "1.0.10.4",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.10.4/EP-Update-v1.0.10.4-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.10.4/EP-Launcher-Setup-v1.0.8-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.10.4",
+    "version": "1.0.10.5",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.10.5/EP-Update-v1.0.10.5-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.10.5/EP-Launcher-Setup-v1.0.8-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.10.5",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-10-20",
+    "publishedAt": "2026-10-24",
     "notes": [
-        "Nueva: Cobro rápido en Minimarket pensado para pantallas táctiles, con teclados en pantalla, productos favoritos por empresa y modo de pantalla completa.",
-        "Nueva: Pantalla para el cliente en Minimarket, que muestra la venta en curso en un segundo monitor.",
-        "Nueva: Configuración de facturación de Minimarket: rango de numeración automático, fijo o preguntado en cada venta; el cobro respeta el rango configurado.",
-        "Nueva: Cuadre por cajero en Minimarket, con las ventas resumidas por medio de pago e impresión en la impresora de EP.",
-        "Nueva: Informe de ventas de Minimarket.",
-        "Nueva: Informe detallado de salidas de caja.",
-        "Nueva: Permisos por rol para Minimarket, Plan Separe y Entregas parciales; los usuarios conservan el acceso que ya tenían.",
-        "Nueva: Recurso de producto \"Mostrar código de barras\": si se desactiva, el formulario de productos oculta ese campo y el producto toma su código interno.",
-        "Nueva: Filtro por proveedor en los reportes de Inventario general y Margen de contribución de existencias.",
-        "Mejora: El Launcher abre maximizado con el isotipo de EP, muestra contenido editorial y tiene una vista compacta.",
-        "Corrección: El filtro por proveedor del reporte de Rentabilidad bruta ahora se aplica.",
-        "Corrección: Las devoluciones de venta ya no fallan con productos de nombre largo.",
-        "Migración (V1_0_10_4_001): Amplía a 100 caracteres el nombre del producto en las devoluciones de venta.",
-        "Migración (V1_0_10_4_201): Crea la configuración de Minimarket, sus productos favoritos y los códigos QR de pago por medio de pago.",
-        "Migración (V1_0_10_4_202): Agrega los permisos de Minimarket, Plan Separe y Entregas parciales, asignados según los permisos que ya tenía cada rol."
+        "Nueva: En el filtro de producto de los reportes se pueden marcar varios productos a la vez desde el buscador.",
+        "Nueva: Botón para enviar por correo desde la consulta de facturas DIAN y desde Documentos electrónicos (facturas y notas crédito).",
+        "Nueva: Al hacer clic en la tarjeta de un informe, la barra muestra solo los filtros de ese informe; con la X del indicador \"Filtros de\" vuelven a verse todos.",
+        "Mejora: El catálogo de informes es el mismo para todos los tipos de negocio: ya no oculta Cotizaciones ni renombra Inventario. Los informes de peso siguen ocultos si no está activo el recurso Peso.",
+        "Mejora: Los informes Inventario proveedor totalizado y Entradas y salidas por proveedor se calculan con el proveedor asignado a cada producto.",
+        "Mejora: El buscador de productos de reportes se abre dentro de la ventana principal, con contador de productos marcados, doble clic para elegir uno y confirmación antes de limpiar la selección.",
+        "Mejora: Las confirmaciones al convertir una factura a electrónica y ante un consecutivo DIAN duplicado usan los diálogos de EP; los errores al reimprimir se muestran en el aviso de la consulta.",
+        "Mejora: En la app móvil, la sesión se cierra sola al vencer o si el servidor la rechaza, y se conservan el servidor, el tema y la empresa seleccionada.",
+        "Corrección: El kardex y el estado de resultados ya no fallan cuando el filtro de productos llega vacío."
     ],
     "launcher": {
         "version": "1.0.8",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.10.4/EP-Launcher-Update-v1.0.8-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.10.5/EP-Launcher-Update-v1.0.8-win-x64.zip"
     }
 }
