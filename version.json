@@ -1,24 +1,32 @@
 {
     "mandatory": false,
-    "version": "1.0.11.2",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.2/EP-Update-v1.0.11.2-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.2/EP-Launcher-Setup-v1.0.9-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.2",
+    "version": "1.0.11.3",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.3/EP-Update-v1.0.11.3-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.3/EP-Launcher-Setup-v1.0.9-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.3",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-11-03",
+    "publishedAt": "2026-11-10",
     "notes": [
-        "Nueva: Las facturas electrónicas cuyo envío falla por problemas de red quedan en el estado \"Error de red\", separadas de los rechazos, y siguen pendientes por reenviar.",
-        "Nueva: EP reenvía automáticamente cada 5 minutos las facturas en \"Error de red\", hasta 10 por vez, y se detiene si la red vuelve a fallar.",
-        "Mejora: Antes de reenviar una factura electrónica, EP consulta su estado en la DIAN por el CUFE: si ya estaba autorizada la marca así, sin reenviarla ni cambiar su consecutivo.",
-        "Mejora: Ante una falla de red al enviar a la DIAN, EP reintenta el envío hasta tres veces, con esperas crecientes.",
-        "Mejora: Nómina muestra los errores del servidor con un mensaje claro en lugar del texto técnico.",
-        "Mejora: En Nómina electrónica la lista se recarga al cambiar el mes o el año del periodo.",
-        "Mejora: Las columnas de acciones de Nómina y de contratos ya no se cortan.",
-        "Corrección: Los reportes multiempresa y Entradas y salidas por proveedor ya no fallan cuando un producto está sincronizado con varias empresas.",
-        "Corrección: Los avisos en pantalla se ven por encima de las ventanas modales."
+        "Nueva: Hakuna, el asistente de EP, disponible desde el escritorio principal en un panel flotante que se puede ocultar, con saludo según la hora del día.",
+        "Nueva: Chat con Hakuna para consultar la información de la empresa (clientes, productos, facturas, compras, cartera, contabilidad, caja, nómina y catálogos), respetando los permisos de cada usuario.",
+        "Nueva: Hakuna calcula los informes de EP con filtros, orden y totales; si el informe no existe, suma desde los datos mostrando cada cifra.",
+        "Nueva: Adjuntar imágenes y PDF en el chat con el botón, Ctrl+V o arrastrando (hasta 3 archivos de 4 MB).",
+        "Nueva: Nivel de razonamiento elegible e indicador que muestra el contexto usado y el consumo del mes.",
+        "Nueva: El chat retoma la última conversación al abrirlo, incluso después de cerrar el programa.",
+        "Nueva: Paleta de emojis y emojis a color en el chat.",
+        "Mejora: Hakuna no accede a datos sensibles como el PIN del software DIAN o las cuentas bancarias, y los registros de otros usuarios exigen el permiso correspondiente.",
+        "Corrección: Las imágenes dentro de las respuestas ya no se descargan automáticamente, para evitar fugas de información.",
+        "Corrección: La clave de Hakuna solo se entrega con una sesión de usuario iniciada.",
+        "Nueva: Tema Carnaval de Barranquilla.",
+        "Nueva: Fondos de inicio de sesión y monogramas propios para cada paleta de colores, y nombres nuevos para las paletas.",
+        "Nueva: Botón \"Posponer todas\" en el centro de notificaciones.",
+        "Mejora: Los mensajes y confirmaciones del sistema usan el cuadro propio de EP, acorde con el tema elegido.",
+        "Corrección: El margen por categoría y por categoría-género resta el costo con IVA y ahora cuadra con la rentabilidad bruta.",
+        "Corrección: Los informes de costo y margen (margen por producto con peso, existencias, factura, rotación, inventarios y saldos nacionales) respetan la opción \"Mostrar valores con IVA\" tanto en la venta como en el costo.",
+        "Corrección: Las actualizaciones de base de datos de la empresa se aplican aunque la sesión siga abierta después de reiniciar o actualizar el servicio."
     ],
     "launcher": {
         "version": "1.0.9",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.2/EP-Launcher-Update-v1.0.9-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.3/EP-Launcher-Update-v1.0.9-win-x64.zip"
     }
 }
