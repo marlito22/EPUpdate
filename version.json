@@ -1,40 +1,20 @@
 {
     "mandatory": false,
-    "version": "1.0.11.4",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.4/EP-Update-v1.0.11.4-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.4/EP-Launcher-Setup-v1.0.9-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.4",
+    "version": "1.0.11.5",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.5/EP-Update-v1.0.11.5-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.5/EP-Launcher-Setup-v1.0.9-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.5",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-11-20",
+    "publishedAt": "2026-11-23",
     "notes": [
-        "Nueva: Los productos pueden tener imagen (JPG, PNG, WEBP o BMP de hasta 2 MB): se guarda en el equipo servidor, se muestra en las tarjetas de Minimarket y se sincroniza con las empresas vinculadas.",
-        "Nueva: Tributo «IVA EXCLUIDO» para clasificar los productos excluidos de IVA.",
-        "Nueva: Opción «Completar saldo automáticamente» en la pantalla de pago de la facturación.",
-        "Nueva: En la configuración de Minimarket se eligen qué categorías de productos se muestran y en qué orden.",
-        "Nueva: Minimarket permite elegir el rango de facturación de cada venta.",
-        "Nueva: El tema visual se guarda por empresa y se aplica desde su pantalla de inicio de sesión.",
-        "Nueva: Opción para ocultar el formulario de productos y ampliar la tabla.",
-        "Mejora: Los mensajes de error se muestran en lenguaje claro, sin detalles técnicos, en EP y en la app móvil.",
-        "Mejora: Minimarket se abre en su propia ventana.",
-        "Mejora: Con «Mostrar valores con IVA», los informes de inventario (normal, farmacia, por peso y rotación, en PDF y Excel) también muestran el precio de venta con IVA, y los encabezados indican si los valores son con o sin IVA.",
-        "Mejora: Los productos nuevos ya no ofrecen el impuesto «IVA 0%»; los que ya lo tienen lo conservan.",
-        "Mejora: Al iniciar sesión con datos errados, el mensaje dice «Usuario o contraseña incorrectos».",
-        "Mejora: En la app móvil se aplica el tema visual de la empresa, con fondos de inicio según el tema.",
-        "Mejora: En la app móvil, las cotizaciones usan la misma bodega e IVA que en EP.",
-        "Corrección: Las facturas electrónicas que la DIAN rechazaba como «Documento procesado anteriormente» tras un reenvío se consultan por CUFE y quedan autorizadas si la DIAN ya las había aceptado.",
-        "Corrección: La consulta de estado en la DIAN guarda su resultado, no degrada un documento ya autorizado y conserva la fecha de aceptación que va impresa en el PDF.",
-        "Corrección: La importación de conteos de inventario acepta productos sin código de barras, identificados por su ID.",
-        "Corrección: El conteo de inventario ya no falla cuando un producto tiene filas de inventario repetidas en la misma bodega.",
-        "Corrección: Los campos de lote y vencimiento del conteo escaneado se ven con el estilo correcto.",
-        "Nueva: Hakuna arma informes personalizados en PDF con el formato estándar de EP, y el chat muestra el botón «Abrir PDF».",
-        "Nueva: Hakuna puede buscar en la web datos públicos que EP no tiene, citando la fuente.",
-        "Mejora: Hakuna ya no guarda en su memoria pedidos para cambiar su nombre o identidad.",
-        "Mejora: Nuevo ícono de Hakuna.",
-        "Migración (V1_0_11_4_200): Agrega el tributo «IVA EXCLUIDO».",
-        "Migración (V1_0_11_4_201): Agrega las preferencias de categorías de Minimarket."
+        "Mejora: Al facturar en Facturación y en Minimarket, el envío a la DIAN y el correo al cliente se hacen en segundo plano: la factura se guarda e imprime y la pantalla queda libre para la siguiente venta. El resultado llega como un aviso con el número de la factura (autorizada, rechazada o pendiente).",
+        "Mejora: El correo con la factura electrónica solo se envía si la DIAN la autorizó y el cliente no es consumidor final.",
+        "Mejora: Si EP se cierra mientras se envía una factura a la DIAN, el envío termina igual y la factura queda con su estado real en lugar de quedarse pendiente.",
+        "Corrección: Los informes de rentabilidad bruta, margen por producto con peso y margen por factura restan las devoluciones, igual que el Estado de Resultados. No se restan las notas de facturas anuladas.",
+        "Corrección: El margen por existencias incluye los productos con existencia que no tuvieron ventas en el periodo, con ventas en cero."
     ],
     "launcher": {
         "version": "1.0.9",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.4/EP-Launcher-Update-v1.0.9-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.5/EP-Launcher-Update-v1.0.9-win-x64.zip"
     }
 }
