@@ -1,20 +1,28 @@
 {
     "mandatory": false,
-    "version": "1.0.11.5",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.5/EP-Update-v1.0.11.5-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.5/EP-Launcher-Setup-v1.0.9-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.5",
+    "version": "1.0.11.6",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.6/EP-Update-v1.0.11.6-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.6/EP-Launcher-Setup-v1.0.9-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.6",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
     "publishedAt": "2026-11-23",
     "notes": [
-        "Mejora: Al facturar en Facturación y en Minimarket, el envío a la DIAN y el correo al cliente se hacen en segundo plano: la factura se guarda e imprime y la pantalla queda libre para la siguiente venta. El resultado llega como un aviso con el número de la factura (autorizada, rechazada o pendiente).",
-        "Mejora: El correo con la factura electrónica solo se envía si la DIAN la autorizó y el cliente no es consumidor final.",
-        "Mejora: Si EP se cierra mientras se envía una factura a la DIAN, el envío termina igual y la factura queda con su estado real en lugar de quedarse pendiente.",
-        "Corrección: Los informes de rentabilidad bruta, margen por producto con peso y margen por factura restan las devoluciones, igual que el Estado de Resultados. No se restan las notas de facturas anuladas.",
-        "Corrección: El margen por existencias incluye los productos con existencia que no tuvieron ventas en el periodo, con ventas en cero."
+        "Nueva: Importación selectiva desde un respaldo SQL de EP (Herramientas): elige qué traer (productos con o sin costos y precios, clientes, proveedores, usuarios, perfil legal, configuración de productos y clientes, tipo de negocio), como empresa nueva o como sucursal.",
+        "Nueva: Método de costo configurable en Configuración > Recursos de productos. Por defecto el costo es el de la última compra y solo las compras lo cambian; si activas \"Usar costo promedio ponderado\", se conserva el promedio de siempre.",
+        "Nueva: Botones para recalcular todos los productos al costo de su última compra y para revertir el último recalculo sin pisar productos que cambiaron después.",
+        "Mejora: Al anular la compra que fijó el costo de un producto, el costo vuelve al de la compra vigente anterior.",
+        "Mejora: Entradas manuales, conteos, transferencias y devoluciones ya no cambian el costo del producto cuando se usa el costo de última compra.",
+        "Mejora: El centro de notificaciones tiene un botón para recargar.",
+        "Corrección: Los conteos de inventario ya no alteran el costo de los productos.",
+        "Corrección: La importación desde respaldo SQL permite un NIT distinto y omite los clientes que ya existen.",
+        "Corrección: Importar usuarios desde un respaldo SQL ahora exige permiso para editar la configuración.",
+        "Nueva: El chat de Hakuna muestra tus conversaciones guardadas; puedes retomar cualquiera o eliminarla.",
+        "Mejora: Antes de eliminar una conversación, Hakuna guarda en su memoria lo que valga la pena recordar; si no lo logra, no la elimina.",
+        "Mejora: Hakuna puede filtrar consultas por un dato relacionado, por ejemplo las ventas de los productos de un proveedor.",
+        "Mejora: Hakuna solo usa en los informes los filtros que cada informe realmente aplica."
     ],
     "launcher": {
         "version": "1.0.9",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.5/EP-Launcher-Update-v1.0.9-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.6/EP-Launcher-Update-v1.0.9-win-x64.zip"
     }
 }
