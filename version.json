@@ -1,28 +1,33 @@
 {
     "mandatory": false,
-    "version": "1.0.11.6",
-    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.6/EP-Update-v1.0.11.6-win-x64.zip",
-    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.6/EP-Launcher-Setup-v1.0.9-win-x64.exe",
-    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.6",
+    "version": "1.0.11.7",
+    "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.7/EP-Update-v1.0.11.7-win-x64.zip",
+    "installerUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.7/EP-Launcher-Setup-v1.0.9-win-x64.exe",
+    "releaseUrl": "https://github.com/marlito22/EPUpdate/releases/tag/v1.0.11.7",
     "changelogUrl": "https://marlito22.github.io/EPUpdate/cambios.html",
-    "publishedAt": "2026-11-23",
+    "publishedAt": "2026-11-28",
     "notes": [
-        "Nueva: Importación selectiva desde un respaldo SQL de EP (Herramientas): elige qué traer (productos con o sin costos y precios, clientes, proveedores, usuarios, perfil legal, configuración de productos y clientes, tipo de negocio), como empresa nueva o como sucursal.",
-        "Nueva: Método de costo configurable en Configuración > Recursos de productos. Por defecto el costo es el de la última compra y solo las compras lo cambian; si activas \"Usar costo promedio ponderado\", se conserva el promedio de siempre.",
-        "Nueva: Botones para recalcular todos los productos al costo de su última compra y para revertir el último recalculo sin pisar productos que cambiaron después.",
-        "Mejora: Al anular la compra que fijó el costo de un producto, el costo vuelve al de la compra vigente anterior.",
-        "Mejora: Entradas manuales, conteos, transferencias y devoluciones ya no cambian el costo del producto cuando se usa el costo de última compra.",
-        "Mejora: El centro de notificaciones tiene un botón para recargar.",
-        "Corrección: Los conteos de inventario ya no alteran el costo de los productos.",
-        "Corrección: La importación desde respaldo SQL permite un NIT distinto y omite los clientes que ya existen.",
-        "Corrección: Importar usuarios desde un respaldo SQL ahora exige permiso para editar la configuración.",
-        "Nueva: El chat de Hakuna muestra tus conversaciones guardadas; puedes retomar cualquiera o eliminarla.",
-        "Mejora: Antes de eliminar una conversación, Hakuna guarda en su memoria lo que valga la pena recordar; si no lo logra, no la elimina.",
-        "Mejora: Hakuna puede filtrar consultas por un dato relacionado, por ejemplo las ventas de los productos de un proveedor.",
-        "Mejora: Hakuna solo usa en los informes los filtros que cada informe realmente aplica."
+        "Nueva: Imágenes de soporte en compras: carga, consulta y quita las fotos de la factura o remisión del proveedor desde Consultar documentos o al crear la compra, con visor a pantalla completa.",
+        "Nueva: Imágenes de soporte también en movimientos de caja, pagos a proveedores, devoluciones de compra y asientos contables manuales.",
+        "Nueva: Configuración > Gestión documental: define por tipo de documento si las imágenes de soporte están desactivadas, son opcionales u obligatorias.",
+        "Nueva: Recepciones parciales de pedidos de compra: un pedido puede recibirse en varias compras y queda en estado Parcial hasta completarse.",
+        "Nueva: Informes \"Detalle de compras por artículo\" y \"Discriminación de IVA en compras\".",
+        "Nueva: Anular asientos contables manuales: se graba un contraasiento con fecha de hoy y se conserva el original.",
+        "Nueva: Exportar a Excel los movimientos de los documentos contables que muestra la consulta.",
+        "Nueva: EP Mobile aplica los permisos de usuario de EPC.",
+        "Corrección: Al anular una compra hecha desde un pedido, lo recibido vuelve a quedar pendiente en el pedido.",
+        "Corrección: La tarifa de IVA en los informes de compras ya no muestra valores como \"19.01%\" por redondeo.",
+        "Corrección: Los descuentos fijos en cotizaciones se alinean correctamente con el IVA.",
+        "Corrección: Usuarios sin permiso de configuración o facturación ya no tienen errores al iniciar sesión ni al cargar la bodega en Compras, Cartera, Cotizaciones y Devoluciones.",
+        "Corrección: Cambiar la licencia o inicializar la base de datos solo se permite desde el propio servidor.",
+        "Nueva: Hakuna puede preparar borradores de asiento contable en el chat; solo se graban cuando pulsas Grabar.",
+        "Mejora: Hakuna puede consultar los dos informes de compras nuevos.",
+        "Mejora: Hakuna sabe explicar las imágenes de soporte, las recepciones parciales y la anulación de asientos.",
+        "Migración (V1_0_11_7_001, V1_0_11_7_002, V1_0_11_7_003): Agrega las tablas de imágenes de soporte y la configuración de gestión documental.",
+        "Migración (V1_0_11_7_200): Agrega el estado Parcial y la cantidad recibida a los pedidos de compra, y vincula las compras con su pedido."
     ],
     "launcher": {
         "version": "1.0.9",
-        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.6/EP-Launcher-Update-v1.0.9-win-x64.zip"
+        "packageUrl": "https://github.com/marlito22/EPUpdate/releases/download/v1.0.11.7/EP-Launcher-Update-v1.0.9-win-x64.zip"
     }
 }
